@@ -16,5 +16,3 @@ The initial simple CNN model demonstrated the highest accuracy and was less comp
 |Denser CNN             |0.989   | 
 | VGG19    | 0.976   | 
 
-
-This repository demonstrates that a simple CNN can achieve high accuracy and efficiency in classifying handwritten digits, outperforming more complex and transfer learning models in this specific task. The simple CNN model is effective for distinguishing between different digits and generalizing well to new data.
