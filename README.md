@@ -3,10 +3,12 @@ The MNIST (Modified National Institute of Standards and Technology) dataset is a
 The goal of this project is to build an automated model that can accurately classify these digits.
 
 **Analysis**
+
 Three deep networks were utilized in this study. Firstly, a simple CNN was built using TensorFlow's Keras API. Secondly, the initial CNN was made denser by adding an additional convolutional layer. Thirdly, a transfer learning approach was employed by applying the pre-trained VGG19, which had been previously trained on the ImageNet dataset.
 
 
 **Findings**
+
 The initial simple CNN model demonstrated the highest accuracy and was less complex and more computationally efficient compared to the denser model and the VGG-19 transfer learning approach. Therefore, the initial simple CNN was deemed the best model for this task, effectively distinguishing between different digits and generalizing well to unseen data.
 | Regression Model              | Accuracy | 
 |-------------------------------|----------|
